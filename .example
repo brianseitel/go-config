@@ -1,22 +1,5 @@
 {
-  "AWS_ACCESS_KEY_ID": "12345",
-  "AWS_REGION": "us-east-1",
-  "DEFAULT_TTL": 604800,
-  "HOSTED_GRAPHITE_HOST": "asdf",
-  "HOSTED_GRAPHITE_SOURCE": "shipt-product-service",
-  "HOSTED_GRAPHITE_API_KEY": "asdf",
-  "PRIVATE_FIELDS": "cost,upc,shipt_upc,sales_tax_code",
-  "ROLLBAR_TOKEN": "",
-  "REDIS_POOL_SIZE": 10,
-  "REDIS_URL": "localhost:6379",
-  "REDIS_INACTIVE_URL": "localhost:6379",
-  "REDIS_INACTIVE_READONLY_URL": "localhost:6379",
-  "PRISM_SERVICE_URL": "https://shipt-product-service.us-east-1.shipt.com",
-  "SERVER_HOST": "0.0.0.0:8080",
-  "SERVICE_ENV": "staging",
-  "WORKER_INPUT_QUEUE": "https://sqs.us-east-1.amazonaws.com/447596476558/prism-dev",
-  "DYNAMO_TABLE_NAME": "prism-dev",
-  "POSTGRES_URL": "postgres://app_roduct_service:l%2408%24pFpBu77B%7EDi@db.prd-shipt-product-service-prism.us-east-1.shipt.com:5432/shipt_product_service?connect_timeout=10",
-  "FILTER_HIDDEN_PRODUCTS": true,
-  "CATEGORY_SERVICE_URL": "http://staging-categories.shipt.com"
+	"service_name": "babinga",
+	"host": "0.0.0.0:8080",
+	"redis": "some.redis.com:6379"
 }
