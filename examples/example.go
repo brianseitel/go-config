@@ -25,5 +25,5 @@ func main() {
 }
 
 var yourMomOption = func(c *lib.Configuration) {
-	c.Set("ServiceName", "anal")
+	c.Set("ServiceName", "your mom")
 }
